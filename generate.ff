@@ -6,7 +6,7 @@ temp_dir = "temp/"
 base_dir = "base/"
 
 packages = StrSplit($1, "|")
-variants = ["Regular", "Bold", "Italic", "Bold Italic"]
+styles = ["Regular", "Bold", "Italic", "Bold Italic"]
 exports = StrSplit($2, "|")
 quotes = StrSplit($3, "|")
 
@@ -29,28 +29,28 @@ while (h < SizeOf(packages))
 	Print("[🐔] working on " + package_name + "…")
 
 	i = 0
-	while (i < SizeOf(variants))
-		variant   = variants[i]
-		is_bold   = (variant == "Bold" || variant == "Bold Italic")
-		is_italic = (variant == "Italic" || variant == "Bold Italic")
+	while (i < SizeOf(styles))
+		style   = styles[i]
+		is_bold   = (style == "Bold" || style == "Bold Italic")
+		is_italic = (style == "Italic" || style == "Bold Italic")
 
-		Print("--- (🥚) working on " + variant + "…")
+		Print("--- (🥚) working on " + style + "…")
 
-		# reuse Regular variant exported for package
+		# reuse Regular style exported for package
 		# mainly to reduce fontforge's 
-		if (variant == "Regular")
+		if (style == "Regular")
 			file_name = package_name
 			base_font = base_dir + package_name + "/font.ttf"
 			else
-			file_name = package_name + " " + variant
+			file_name = package_name + " " + style
 			base_font = temp_dir + package_name + "." + exports[0]
 		endif
 
 		Open(base_dir + "empty.ttf")
 
-		font_name = package_name + " " + variant
+		font_name = package_name + " " + style
 		SetFontNames(package_id, package_name, font_name, "", "", package_version)
-		SetTTFName(0x409, 2, variant)
+		SetTTFName(0x409, 2, style)
 
 		if (is_bold && bold_special == "1")
 			MergeFonts(base_dir + package_name + "/Bold/font.ttf")
@@ -100,7 +100,7 @@ while (h < SizeOf(packages))
 
 		Close()
 
-		Print("--- (🐣) " + variant + quotes[Rand() % SizeOf(quotes)])
+		Print("--- (🐣) " + style + quotes[Rand() % SizeOf(quotes)])
 		i++
 	endloop
 

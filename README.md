@@ -14,7 +14,7 @@ kudos to [YellowAfterlife's pixel font converter](https://yal.cc/r/20/pixelfont/
 <p>
 	<img src="./GITHUB/main%20package.png" alt="main">
 	<br>
-	→ <i>Minecraft font with bold and italic variants</i>
+	→ <i>Minecraft font with bold and italic styles</i>
 	<br>
 	( 📥 ← 
 		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20ttf.zip"><code>ttf</code></a> 
@@ -31,7 +31,7 @@ this is most likely what you're looking for! it should cover almost every charac
 	<br>
 	<img src="./GITHUB/main preview 1.png">
 	<hr>
-	bold and italic variants, with bold being strange as ever
+	bold and italic styles, with bold being strange as ever
 	<br>
 	please note that italic has a little kerning issue that i do not know how to fix yet. sorry
 	<img src="./GITHUB/main preview 2.png">
@@ -72,11 +72,11 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 	<br>
 	<img src="./GITHUB/tweaked preview 1.png">
 	<hr>
-	bold variant should be more readable
+	bold style should be more readable
 	<br>
 	<img src="./GITHUB/tweaked preview 2.png">
 	<hr>
-	some characters will not be bolden in bold variant, for reasons!
+	some characters will not be bolden in bold style, for reasons!
 	<br>
 	<img src="./GITHUB/tweaked preview 3.png">
 </details>
@@ -133,7 +133,7 @@ feel free and open source to use these fonts freely, in personal and commercial 
 
 ## vague plans
 
-- fix kerning issue with italic variants
+- fix kerning issue with italic styles
 - somehow make the process of working on font a bit better?
 - tweaked + extended package?
 
