@@ -1,9 +1,5 @@
-
-# main 1.0 (…)
-- initial release
-
-# extended 1.0 (…)
-- initial release
+# February 5, 2024
+- initial release for main, tweaked, and extended packages
 
 <hr>
 
