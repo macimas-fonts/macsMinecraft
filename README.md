@@ -11,15 +11,17 @@ kudos to [YellowAfterlife's pixel font converter](https://yal.cc/r/20/pixelfont/
 
 <img align="right" src="./GITHUB/mmm... font!.png">
 
-<img align="center" src="./GITHUB/main%20package.png" alt="main">
-<br>
-→ *Minecraft font with bold and italic variants*
-<br>
-( 📥 ← [`ttf`][m ttf] [`otf`][m otf] [`woff2`][m woff2] )
-
-[m ttf]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Minecraft%20ttf.zip
-[m otf]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Minecraft%20otf.zip
-[m woff2]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Minecraft%20woff2.zip
+<p>
+	<img src="./GITHUB/main%20package.png" alt="main">
+	<br>
+	→ <i>Minecraft font with bold and italic variants</i>
+	<br>
+	( 📥 ← 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20ttf.zip"><code>ttf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20otf.zip"><code>otf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20woff2.zip"><code>woff2</code></a> 
+	)
+</p>
 
 this is most likely what you're looking for! it should cover almost every character in respect to Minecraft Java 1.20.x
 
@@ -50,15 +52,17 @@ this is most likely what you're looking for! it should cover almost every charac
 
 <hr>
 
-<img align="center" src="./GITHUB/tweaked%20package.png" alt="tweaked">
-<br>
-→ *tweaks characters in main package*
-<br>
-( 📥 ← [`ttf`][t ttf] [`otf`][t otf] [`woff2`][t woff2] )
-
-[t ttf]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Tweaked%20Minecraft%20ttf.zip
-[t otf]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Tweaked%20Minecraft%20otf.zip
-[t woff2]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Tweaked%20Minecraft%20woff2.zip
+<p>
+	<img src="./GITHUB/tweaked%20package.png" alt="tweaked">
+	<br>
+	→ <i>tweaks characters in main package</i>
+	<br>
+	( 📥 ← 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Tweaked%20Minecraft%20ttf.zip"><code>ttf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Tweaked%20Minecraft%20otf.zip"><code>otf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Tweaked%20Minecraft%20woff2.zip"><code>woff2</code></a> 
+	)
+</p>
 
 tweakity with no regard if it actually makes it better. let me know if bad in Issues page
 
@@ -72,7 +76,7 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 	<br>
 	<img src="./GITHUB/tweaked preview 2.png">
 	<hr>
-	some characters will not be bolden, for reasons!
+	some characters will not be bolden in bold variant, for reasons!
 	<br>
 	<img src="./GITHUB/tweaked preview 3.png">
 </details>
@@ -86,15 +90,17 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 
 <hr>
 
-<img align="center" src="./GITHUB/extended%20package.png" alt="extended">
-<br>
-→ *adds more characters to main package*
-<br>
-( 📥 ← [`ttf`][e ttf] [`otf`][e otf] [`woff2`][e woff2] )
-
-[e ttf]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Extended%20Minecraft%20ttf.zip
-[e otf]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Extended%20Minecraft%20otf.zip
-[e woff2]: https://github.com/macimas/mac's%20Minecraft/raw/main/mac's%20Extended%20Minecraft%20woff2.zip
+<p>
+	<img src="./GITHUB/extended%20package.png" alt="extended">
+	<br>
+	→ <i>adds more characters to main package</i>
+	<br>
+	( 📥 ← 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Extended%20Minecraft%20ttf.zip"><code>ttf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Extended%20Minecraft%20otf.zip"><code>otf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Extended%20Minecraft%20woff2.zip"><code>woff2</code></a> 
+	)
+</p>
 
 a little experiment. i dont really like most of it turned out. i may add more and polish this up in later versions, but for now it just exists `:p`
 
