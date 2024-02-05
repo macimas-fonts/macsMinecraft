@@ -1,13 +1,13 @@
 <img align="left" src="GITHUB/bennett.png" alt="strange grass block">
 
-<h1>mac's Minecraft</h2>
+# mac's Minecraft
 
 a rough 1:1 recreation of Minecraft font
 
 kudos to [YellowAfterlife's pixel font converter](https://yal.cc/r/20/pixelfont/)
 
 
-<h2>packages</h2>
+## packages
 
 <img align="right" src="./GITHUB/mmm... font!.png">
 
@@ -125,20 +125,20 @@ a little experiment. i dont really like most of it turned out. i may add more an
 **note:** these fonts haven't been thoroughly tested. feel free to let me know in Issues page if you have suggestion or issue with these packages `:)`
 
 
-# license
+## license
 fonts are under [SIL Open Font License](./LICENSE)
 
 feel free and open source to use these fonts freely, in personal and commercial projects! `:D`
 
 
-# vague plans
+## vague plans
 
 - fix kerning issue with italic variants
 - somehow make the process of working on font a bit better?
 - tweaked + extended package?
 
 
-# how to build?
+## how to build?
 uhmmm not sure why you need to do that but here's some prerequisites:
 
 - Linux (sorry...)
@@ -148,7 +148,7 @@ then run the script `lua generate.lua`
 
 it should generate fonts in `temp/`, and zip those fonts into their respective packages in `build/`
 
-# some boring background info
+## some boring background info
 
 i started this back in around December 2022 when i couldn't find a nice Minecraft font. they were either not pixel-perfect, outdated, or were quite lacking or weird looking
 
