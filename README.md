@@ -7,9 +7,9 @@ a rough 1:1 recreation of Minecraft font
 kudos to [YellowAfterlife's pixel font converter](https://yal.cc/r/20/pixelfont/)
 
 
-## packages
-
 <img align="right" src="./GITHUB/mmm... font!.png">
+
+## packages
 
 <p>
 	<img src="./GITHUB/main%20package.png" alt="main">
@@ -128,7 +128,7 @@ a little experiment. i dont really like most of it turned out. i may add more an
 ## license
 fonts are under [SIL Open Font License](./LICENSE)
 
-feel free and open source to use these fonts freely, in personal and commercial projects! `:D`
+feel free and open source to use these fonts freely, for personal and commercial purposes! `:D`
 
 
 ## vague plans
