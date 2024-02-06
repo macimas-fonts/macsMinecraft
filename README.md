@@ -2,7 +2,7 @@
 
 # mac's Minecraft
 
-a rough 1:1 recreation of Minecraft font
+a rough 1:1 recreation of the Minecraft font
 
 kudos to [YellowAfterlife's pixel font converter](https://yal.cc/r/20/pixelfont/)
 
@@ -122,7 +122,7 @@ a little experiment. i dont really like most of it turned out. i may add more an
 
 <hr>
 
-**note:** these fonts haven't been thoroughly tested. feel free to let me know in Issues page if you have suggestion or issue with these packages `:)`
+**note:** these fonts haven't been thoroughly tested. feel free to let me know in Issues page if you have issue or suggestion with these packages `:)`
 
 
 ## license
@@ -147,6 +147,7 @@ uhmmm not sure why you need to do that but here's some prerequisites:
 then run the script `lua generate.lua`
 
 it should generate fonts in `temp/`, and zip those fonts into their respective packages in `build/`
+
 
 ## some boring background info
 
