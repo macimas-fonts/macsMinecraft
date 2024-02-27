@@ -49,7 +49,8 @@ while (h < SizeOf(packages))
 		Open(base_dir + "empty.ttf")
 
 		font_name = package_name + " " + style
-		SetFontNames(package_id, package_name, font_name, "", "", package_version)
+		SetFontNames(package_id, package_name, font_name, "", "", package_name)
+		SetTTFName(0x409, 5, package_version)
 		SetTTFName(0x409, 2, style)
 
 		if (is_bold && bold_special == "1")
