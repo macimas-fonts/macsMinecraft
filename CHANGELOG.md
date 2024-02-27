@@ -1,3 +1,7 @@
+## February 28, 2024
+- fix characters `p q`
+  - their stems were 1 pixel longer due to oversight
+
 ## February 5, 2024
 - initial release for main, tweaked, and extended packages
 
