@@ -1,110 +1,57 @@
 #!/usr/bin/fontforge
 
-# this script is probably bad
-
-temp_dir = "temp/"
 base_dir = "base/"
+temp_dir = "temp/"
 
-packages = StrSplit($1, "|")
-styles = ["Regular", "Bold", "Italic", "Bold Italic"]
-exports = StrSplit($2, "|")
-quotes = StrSplit($3, "|")
+pack_name = $1
+style = $2
+basis = StrSplit($3, "|")
 
-h = 0
-while (h < SizeOf(packages))
-	package = packages[h]
-	packages[h] = StrSplit(package, "…")
-	h++
+is_bold   = (style == "Bold" || style == "Bold Italic")
+is_italic = (style == "Italic" || style == "Bold Italic")
+
+Open(base_dir + "empty.ttf")
+
+i = 0
+while (i < SizeOf(basis))
+	base = basis[i]
+	base_font_file = base_dir + base + "/" + base
+	base_font = base_font_file + ".ttf"
+	base_font_bold = base_font_file + " Bold.ttf"
+
+	if (is_bold && FileAccess(base_font_bold) == 0)
+		MergeFonts(base_font_bold)
+		SelectGlyphsSplines()
+		SelectInvert()
+		DetachAndRemoveGlyphs()
+		SelectGlyphsSplines()
+	endif
+
+	MergeFonts(base_font)
+	i++
 endloop
 
-h = 0
-while (h < SizeOf(packages))
-	package         = packages[h]
-	package_id      = package[0]
-	package_name    = package[1]
-	package_version = package[2]
-	merge           = package[3]
-	bold_special    = package[4]
+SelectInvert()
 
-	Print("[🐔] working on " + package_name + "…")
+if (is_bold)
+	Shadow(0, 0, 128)
+	SetOS2Value("Weight", 700)
+	SetOS2Value("StyleMap", 0x20)
+endif
 
-	i = 0
-	while (i < SizeOf(styles))
-		style   = styles[i]
-		is_bold   = (style == "Bold" || style == "Bold Italic")
-		is_italic = (style == "Italic" || style == "Bold Italic")
+if (is_italic)
+	SelectAll()
+	Skew(12)
+	SetOS2Value("StyleMap", 0x01)
+endif
 
-		Print("--- (🥚) working on " + style + "…")
+if (is_bold && is_italic)
+	SetOS2Value("StyleMap", 0x21)
+endif
 
-		# reuse Regular style exported for package
-		# mainly to reduce fontforge's 
-		if (style == "Regular")
-			file_name = package_name
-			base_font = base_dir + package_name + "/font.ttf"
-			else
-			file_name = package_name + " " + style
-			base_font = temp_dir + package_name + "." + exports[0]
-		endif
+Select(" ")
+if (is_bold)
+	SetWidth(640); else SetWidth(512);
+endif
 
-		Open(base_dir + "empty.ttf")
-
-		font_name = package_name + " " + style
-		SetFontNames(package_id, package_name, font_name, "", "", package_name)
-		SetTTFName(0x409, 5, package_version)
-		SetTTFName(0x409, 2, style)
-
-		if (is_bold && bold_special == "1")
-			MergeFonts(base_dir + package_name + "/Bold/font.ttf")
-			SelectGlyphsSplines()
-			SelectInvert()
-			DetachAndRemoveGlyphs()
-			SelectGlyphsSplines()
-		endif
-
-		MergeFonts(base_font)
-		
-		if (merge == "1")
-			MergeFonts(temp_dir + packages[0][1] + "." + exports[0])
-		endif
-
-		if (is_bold && bold_special == "1")
-			SelectInvert(); else; SelectAll()
-		endif
-
-		if (is_bold)
-			Shadow(0, 0, 128)
-			SetOS2Value("Weight", 700)
-			SetOS2Value("StyleMap", 0x20)
-		endif
-
-		if (is_italic)
-			SelectAll()
-			Skew(12)
-			SetOS2Value("StyleMap", 0x01)
-		endif
-
-		if (is_bold && is_italic)
-			SetOS2Value("StyleMap", 0x21)
-		endif
-
-		Select(" ")
-		if (is_bold)
-			SetWidth(640); else SetWidth(512);
-		endif
-
-		j = 0
-		while (j < SizeOf(exports))
-			Generate(temp_dir + file_name + "." + exports[j])
-			Print("--- <🪹> exported to " + exports[j])
-			j++
-		endloop
-
-		Close()
-
-		Print("--- (🐣) " + style + quotes[Rand() % SizeOf(quotes)])
-		i++
-	endloop
-
-	Print("[🛖] finished " + package_name + "!")
-	h++
-endloop
+Generate(temp_dir + pack_name + ".ttf")

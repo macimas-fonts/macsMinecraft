@@ -1,59 +1,54 @@
--- this script is probably bad
+local config = require("config")
+local quotes = config.quotes
+local styles = { "Regular", "Bold", "Italic", "Bold Italic" }
 
-packages = {
-	{"macimas-Minecraft", "mac's Minecraft", "1.0", 0, 0},
-	{"macimas-Extended-Minecraft", "mac's Extended Minecraft", "1.0", 1, 0},
-	{"macimas-Tweaked-Minecraft", "mac's Tweaked Minecraft", "1.0", 1, 1}
-}
-exports = {
-	"ttf",
-	"otf",
-	"woff2"
-}
-quotes = {
-	" is ready!",
-	" has been baked!",
-	" is feelin ready!",
-	" is feelin good!",
-	", the legendary warrior, appears!",
-	" has joined the server!",
-}
+-- do the generating stuff
 
+local fonts_list = {}
 
-print(">>> generating…")
-os.execute("mkdir temp; mkdir build")
+for i, pack in ipairs(config.packs) do
+	local id = table.concat({ config.id, pack.id }, "-")
+	
+	local basis = pack.basis
+	table.sort(basis, function (a, b); return a > b; end)
 
-ff_packages = {}
+	if (basis[1] == "_") then
+		basis[1] = pack.id
+	end
 
-for i, pack in ipairs(packages) do
-	ff_packages[i] = table.concat(pack, "…")
-end
+	print(string.format(" (🐔) working on %s...", pack.id))
 
-ff_packages = table.concat(ff_packages, "|")
-ff_exports = table.concat(exports, "|")
-ff_quotes = table.concat(quotes, "|")
+	for i, style in ipairs(styles) do
+		local name = table.concat({ config.name, pack.id }, " ")
+		local full_name = table.concat({ name, style }, " ")
 
-build_exec = string.format(
-	'fontforge -quiet generate.ff "%s" "%s" "%s"',
-	ff_packages, ff_exports, ff_quotes
-)
+		local generate_cli = string.format(
+			'fontforge generate.ff "%s" "%s" "%s" &> /dev/null',
+			full_name, style, table.concat(basis, "|")
+		)
 
-build = os.execute(build_exec)
+		local result = os.execute(generate_cli) or os.exit(1)
 
-if (not build) then os.exit(1) end
-print(">>> done generating!")
+		print(string.format(
+			"  ^^ (🐣) %s%s",
+			style, quotes[math.random(#quotes)]
+		))
 
-
-print(">>> zipping…")
-
-zip_exec = 'find temp -name "%s*.%s" -print0 | xargs -0 zip -q -j "build/%s %s.zip" || exit 1'
-for i, pack in pairs(packages) do
-	local pack = pack[2]
-	for i, export in pairs(exports) do
-		local exec = string.format(zip_exec, pack, export, pack, export)
-		os.execute(exec)
-		print(string.format("--- zipped %s %s!", pack, export))
+		table.insert(fonts_list, { id, name, full_name, style })
 	end
 end
 
-print(">>> done zipping!")
+-- info set
+
+for i, font in ipairs(fonts_list) do
+	fonts_list[i] = table.concat(font, "/")
+end
+
+fonts_list = table.concat(fonts_list, "|")
+
+os.execute(string.format(
+	'fontforge --quiet --script infoset.py "%s" "%s"',
+	fonts_list, config.version
+))
+
+print(" (🛖) finished!")
