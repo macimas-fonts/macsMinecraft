@@ -27,7 +27,10 @@ while (i < SizeOf(basis))
 		SelectGlyphsSplines()
 	endif
 
-	MergeFonts(base_font)
+	if (FileAccess(base_font) == 0)
+		MergeFonts(base_font)
+	endif
+
 	i++
 endloop
 
@@ -35,18 +38,11 @@ SelectInvert()
 
 if (is_bold)
 	Shadow(0, 0, 128)
-	SetOS2Value("Weight", 700)
-	SetOS2Value("StyleMap", 0x20)
 endif
 
 if (is_italic)
 	SelectAll()
 	Skew(12)
-	SetOS2Value("StyleMap", 0x01)
-endif
-
-if (is_bold && is_italic)
-	SetOS2Value("StyleMap", 0x21)
 endif
 
 Select(" ")
