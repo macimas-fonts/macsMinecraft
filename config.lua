@@ -3,6 +3,12 @@ local config = {
 	name    = "mac's Minecraft",
 	version = 1.02,
 
+	exports = {
+		"ttf",
+		"otf",
+		"woff2"
+	},
+
 	packs = {
 		{ id = "Main",     basis = { "_" } },
 		{ id = "Tweaked",  basis = { "_", "Main" } },

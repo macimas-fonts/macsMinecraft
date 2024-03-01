@@ -1,7 +1,6 @@
 local config = require("config")
 local quotes = config.quotes
 local styles = { "Regular", "Bold", "Italic", "Bold Italic" }
-local exports = { "ttf", "otf" }
 
 os.execute("mkdir temp; mkdir base")
 
@@ -61,7 +60,7 @@ fonts_list = table.concat(fonts_list, "|")
 
 local infoset_cli = string.format(
 	'fontforge --quiet --script export.py "%s" "%s" "%s"',
-	fonts_list, table.concat(exports, "|"), config.version
+	fonts_list, table.concat(config.exports, "|"), config.version
 )
 
 local result = os.execute(infoset_cli)
@@ -72,7 +71,7 @@ local result = result or os.exit(1)
 print(" (📥️) zipping...")
 
 for i, pack in ipairs(config.packs) do
-	for i, export in ipairs(exports) do
+	for i, export in ipairs(config.exports) do
 		local pack_name_table = { config.name, export }
 
 		if not (pack.id == "Main") then
