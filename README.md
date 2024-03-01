@@ -47,7 +47,7 @@ this is most likely what you're looking for! it should cover almost every charac
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/mac's Minecraft/table.png">
+	<img src="./base/Main/Main.png">
 </details>
 
 <hr>
@@ -58,9 +58,9 @@ this is most likely what you're looking for! it should cover almost every charac
 	→ <i>tweaks characters in main package</i>
 	<br>
 	( 📥 ← 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Tweaked%20Minecraft%20ttf.zip"><code>ttf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Tweaked%20Minecraft%20otf.zip"><code>otf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Tweaked%20Minecraft%20woff2.zip"><code>woff2</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Tweaked%20ttf.zip"><code>ttf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Tweaked%20otf.zip"><code>otf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Tweaked%20woff2.zip"><code>woff2</code></a> 
 	)
 </p>
 
@@ -83,9 +83,9 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/mac's Tweaked Minecraft/table.png">
+	<img src="./base/Tweaked/Tweaked.png">
 	<br>
-	<img src="./base/mac's Tweaked Minecraft/Bold/table.png">
+	<img src="./base/Tweaked/Tweaked Bold.png">
 </details>
 
 <hr>
@@ -96,9 +96,9 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 	→ <i>adds more characters to main package</i>
 	<br>
 	( 📥 ← 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Extended%20Minecraft%20ttf.zip"><code>ttf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Extended%20Minecraft%20otf.zip"><code>otf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Extended%20Minecraft%20woff2.zip"><code>woff2</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20ttf.zip"><code>ttf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20otf.zip"><code>otf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20woff2.zip"><code>woff2</code></a> 
 	)
 </p>
 
@@ -117,7 +117,61 @@ a little experiment. i dont really like most of it turned out. i may add more an
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/mac's Extended Minecraft/table.png">
+	<img src="./base/Extended/Extended.png">
+</details>
+
+<hr>
+
+<p>
+	<img src="./GITHUB/illageralt%20package.png" alt="extended">
+	<br>
+	→ <i>it's that secret font in Java and the runic font in Dungeons</i>
+	<br>
+	( 📥 ← 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20ttf.zip"><code>ttf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20otf.zip"><code>otf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20woff2.zip"><code>woff2</code></a> 
+	)
+</p>
+
+yep. also do note that this isn't based on any package
+
+<details>
+	<summary>previews</summary>
+	the font! with main font for comparison
+	<br>
+	<img src="./GITHUB/illageralt preview 1.png">
+</details>
+
+<details>
+	<summary>glyph table</summary>
+	<img src="./base/Illageralt/Illageralt.png">
+</details>
+
+<hr>
+
+<p>
+	<img src="./GITHUB/illageralt%20tweaked%20package.png" alt="extended">
+	<br>
+	→ <i>simply bold more readable</i>
+	<br>
+	( 📥 ← 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20ttf.zip"><code>ttf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20otf.zip"><code>otf</code></a> 
+		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20woff2.zip"><code>woff2</code></a> 
+	)
+</p>
+
+<details>
+	<summary>previews</summary>
+	bold is most likely more readable, maybe
+	<br>
+	<img src="./GITHUB/illageralt tweaked preview 1.png">
+</details>
+
+<details>
+	<summary>glyph table</summary>
+	<img src="./base/Illageralt Tweaked/Illageralt Tweaked Bold.png">
 </details>
 
 <hr>
@@ -129,13 +183,6 @@ a little experiment. i dont really like most of it turned out. i may add more an
 fonts are under [SIL Open Font License](./LICENSE)
 
 feel free and open source to use these fonts freely, for personal and commercial purposes! `:D`
-
-
-## vague plans
-
-- fix kerning issue with italic styles
-- somehow make the process of working on font a bit better?
-- tweaked + extended package?
 
 
 ## how to build?

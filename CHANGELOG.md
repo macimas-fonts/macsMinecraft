@@ -1,3 +1,21 @@
+## 1.02 - March 1, 2024
+this release mostly contains technical changes, for terrible reasons!
+
+- fix characters
+  - `U+0440 р` - stem was 1 pixel longer
+  - `U+1E06 Ḇ`, `U+1E07 ḇ` - wasn't bold in tweaked
+- new package: Illageralt
+- new package: Illageralt Tweaked
+- embed license into fonts
+- change versioning to `M.mm`
+- sfnt revision is now also set to font version
+- change package naming
+  - tweaked: `mac's Tweaked Minecraft` → `mac's Minecraft Tweaked`
+  - extended: `mac's Extended Minecraft` → `mac's Minecraft Extended`
+
+i also redid font generation. it's slightly more cleaner and lets me do things i wasn't able to do before. am mostly satisfied with it! 👍️
+<small><i>please do not look at the code, thank you</i></small>
+
 ## 1.1 - February 28, 2024
 - fix characters `p q`
   - their stems were 1 pixel longer due to oversight

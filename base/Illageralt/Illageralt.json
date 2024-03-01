@@ -1,0 +1,40 @@
+{
+	"$baseURI": "https://yal.cc/r/20/pixelfont/",
+	"$version": "1.0",
+	"in-glyphs": [
+		"!.,0123456789ABCDEFGHIJKLMNOPQRS",
+		"TUVWXYZ?"
+	],
+	"glyph-color": "auto",
+	"in-kerning": [
+		""
+	],
+	"glyph-width": 16,
+	"glyph-height": 15,
+	"glyph-ofs-x": 13,
+	"glyph-ofs-y": 31,
+	"glyph-sep-x": 1,
+	"glyph-sep-y": 1,
+	"glyph-base-x": 0,
+	"glyph-baseline": 11,
+	"glyph-spacing": 1,
+	"font-is-mono": false,
+	"font-em-square": 1024,
+	"font-line-gap": 0,
+	"font-ascend": 1024,
+	"font-descend": -128,
+	"font-px-size": 128,
+	"contour-type": "smart",
+	"font-type": "ttf",
+	"font-name": "Illageralt",
+	"font-author": "",
+	"font-copy": "",
+	"font-version": "",
+	"font-desc": "",
+	"font-license": "",
+	"font-license-url": "",
+	"font-sample-text": "",
+	"font-preview-text": [
+		""
+	]
+}
