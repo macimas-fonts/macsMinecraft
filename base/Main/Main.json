@@ -2,7 +2,7 @@
 	"$baseURI": "https://yal.cc/r/20/pixelfont/",
 	"$version": "1.0",
 	"in-glyphs": [
-		"!\"#$%&'()*+,-.1234567890:;<=>?@",
+		"!\"#$%&'()*+,-./1234567890:;<=>?@",
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`",
 		"abcdefghijklmnopqrstuvwxyz{|}~",
 		"",
