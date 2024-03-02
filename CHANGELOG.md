@@ -14,7 +14,7 @@ this release mostly contains technical changes, for terrible reasons!
   - extended: `mac's Extended Minecraft` → `mac's Minecraft Extended`
 
 i also redid font generation. it's slightly more cleaner and lets me do things i wasn't able to do before. am mostly satisfied with it! 👍️
-<small><i>please do not look at the code, thank you</i></small>
+~~*please do not look at the code, thank you*~~
 
 ## 1.1 - February 28, 2024
 - fix characters `p q`
