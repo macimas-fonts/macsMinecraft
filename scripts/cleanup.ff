@@ -1,0 +1,12 @@
+#!/usr/bin/fontforge
+
+Print($argv)
+
+argv = $argv
+
+i = 1
+while (i < SizeOf(argv))
+	Open(argv[i])
+	Generate(argv[i])
+	i++
+endloop

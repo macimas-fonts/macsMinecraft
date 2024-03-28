@@ -1,3 +1,9 @@
+## 1.03 - wip
+- add characters `/ … ‽ ⟘ ʻ ˌ ◘ Ӽ Ӿ ӽ ӿ ӻ`
+- fix characters `⁂ ⁇ ⁈ ⁉`
+- use `✘` instead of `✗`
+- rework font gen again
+
 ## 1.02 - March 1, 2024
 this release mostly contains technical changes, for terrible reasons!
 

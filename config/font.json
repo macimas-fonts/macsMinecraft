@@ -1,0 +1,19 @@
+{
+	"id": "macimas-Minecraft",
+	"name": "mac's Minecraft",
+	"version": 1.03,
+	"description": {
+		"default": "a rough 1:1 recreation of the Minecraft font"
+	},
+	"exports": [
+		"ttf"
+	],
+	"packs": {
+		"Main":     { "basis": [ "_" ] },
+		"Tweaked":  { "basis": [ "_", "Main" ] },
+		"Extended": { "basis": [ "_", "Main" ] },
+
+		"Illageralt":         { "basis": [ "_" ] },
+		"Illageralt Tweaked": { "basis": [ "_", "Illageralt" ] }
+	}
+}
