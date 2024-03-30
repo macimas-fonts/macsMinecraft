@@ -1,8 +1,57 @@
 ## 1.03 - wip
-- add characters `/ … ‽ ⟘ ʻ ˌ ◘ Ӽ Ӿ ӽ ӿ ӻ`
-- fix characters `⁂ ⁇ ⁈ ⁉`
+this release attempts to mostly fix Main fonts
+
+- add characters `/ … ‽ ⟘ ʻ ˌ ◘ Ӽ Ӿ ӽ ӿ ӻ ̧  ˙`
 - use `✘` instead of `✗`
-- rework font gen again
+- fix characters
+  - Latin Extended
+`ĐļĽ`
+  - Latin Extended-B
+`ǴǦǤƜƣȿȽƻɃ`
+  - Latin Extended Additional
+`ḥỈỉḦḧḨḩḤṅṤṥ`
+  - Cyrillic
+`ЎёђћҔӫӱӯӳӸҊӉҤҋӎРөѳ`
+  - Cyrillic Extended-B
+`ꚗ`
+  - Cyrillic Supplement
+`Ԇԇԗ`
+  - Miscellaneous Symbols
+`☮♯⛏☔⚗`
+  - IPA Extensions
+`ʥʨʬʭɯɼ`
+  - Greek Extended
+`ἄᾺΆᾄᾎᾏἥἮᾕᾞἰἺἼἾὍὟὬὭᾬᾭ`
+  - Greek and Coptic
+`ϓη`
+  - Phonetic Extensions Supplement
+`ᶈᶋ`
+  - Arrows
+`⇄`
+  - Supplemental Arrows-B
+`⥝`
+  - Superscripts and Subscripts
+`⁵₅`
+  - General Punctuation
+`‱`
+  - Armenian
+`Դեճն՟֊`
+  - Runic
+`ᚯᚰᚾᛅᛧᛴ`
+  - Georgian
+`Ⴇდე`
+  - Georgian Supplement
+`ⴈ`
+  - Currency Symbols
+`₾`
+  - Geometric Shapes
+`◎`
+  - Gothic
+`𐌱𐌲`
+  - Miscellaneous Symbols and Pictographs
+`🏹`
+
+i also redid font generation again :p
 
 ## 1.02 - March 1, 2024
 this release mostly contains technical changes, for terrible reasons!

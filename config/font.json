@@ -9,9 +9,10 @@
 		"ttf"
 	],
 	"packs": {
-		"Main":     { "basis": [ "_" ] },
-		"Tweaked":  { "basis": [ "_", "Main" ] },
-		"Extended": { "basis": [ "_", "Main" ] },
+		"Main":             { "basis": [ "_" ] },
+		"Tweaked":          { "basis": [ "_", "Main" ] },
+		"Extended":         { "basis": [ "_", "Main" ] },
+		"Extended Tweaked": { "basis": [ "_", "Extended", "Tweaked", "Main" ] },
 
 		"Illageralt":         { "basis": [ "_" ] },
 		"Illageralt Tweaked": { "basis": [ "_", "Illageralt" ] }
