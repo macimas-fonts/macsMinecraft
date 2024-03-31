@@ -1,5 +1,6 @@
 import os
 import json
+import random
 ff = fontforge
 
 config = json.load(open("config/font.json"))
@@ -8,10 +9,16 @@ quotes = json.load(open("config/quotes.json"))
 license = open("LICENSE")
 license = license.read()
 
-base_dir = "variants/"
+base_dir = "fonts/"
 temp_dir = "TEMP/"
 
 styles = [ "Regular", "Bold", "Italic", "Bold Italic" ]
+stylemap = {
+	"Regular":     0x40,
+	"Italic":      0x01,
+	"Bold":        0x20,
+	"Bold Italic": 0x21
+}
 
 def style_it(pack_name, pack_config, style):
 	font = ff.open(base_dir + "basis.ttf")
@@ -30,19 +37,15 @@ def style_it(pack_name, pack_config, style):
 		if component == "_":
 			component = pack_name
 
-		print(f'{component} for {pack_name}')
-
 		regular_font = base_dir + component + "/Regular.ttf"
 		bold_font    = base_dir + component + "/Bold.ttf"
 		italic_font  = base_dir + component + "/Italic.ttf"
 
 		if is_bold and os.path.isfile(bold_font):
-			print("merge bold")
 			font.mergeFonts(bold_font)
 		#if
 
 		if not is_bold and os.path.isfile(regular_font):
-			print("merge regular")
 			font.mergeFonts(regular_font)
 		#if
 	#for
@@ -60,8 +63,14 @@ def style_it(pack_name, pack_config, style):
 	full_name = f'{config["name"]} {pack_name} {style}'
 
 	font.fontname = id_name
-	font.familyname = full_name
+	font.os2_stylemap = stylemap[style]
 	font.sfntRevision = config["version"]
+
+	if pack_name == "Main":
+		font.familyname = config["name"]
+	else:
+		font.familyname = f'{config["name"]} {pack_name}'
+	#if
 
 	appendSFNTName("Fullname", full_name)
 	appendSFNTName("UniqueID", id_name)
@@ -85,7 +94,13 @@ def style_it(pack_name, pack_config, style):
 #def
 
 for pack_name, pack_config in config["packs"].items():
+	print(f'(🐔) Working on {pack_name}...')
+
 	for style in styles:
 		style_it(pack_name, pack_config, style)
+
+		print(f'-- (🐣) {random.choice(quotes).format(style)}')
 	#for
+
+	print(f'(🛖) {pack_name} is done!')
 #for

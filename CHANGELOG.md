@@ -1,55 +1,69 @@
 ## 1.03 - wip
-this release attempts to mostly fix Main fonts
+this release should fix most issues with Main font. hopefully!!!!
 
+oh yeah i call them fonts instead of packages now, for reasons `:v`
+
+- new font: Extended Tweaked
+  - combines Extended and Tweaked fonts, of course!
 - add characters `/ … ‽ ⟘ ʻ ˌ ◘ Ӽ Ӿ ӽ ӿ ӻ ̧  ˙`
 - use `✘` instead of `✗`
-- fix characters
-  - Latin Extended
-`ĐļĽ`
-  - Latin Extended-B
-`ǴǦǤƜƣȿȽƻɃ`
-  - Latin Extended Additional
-`ḥỈỉḦḧḨḩḤṅṤṥ`
-  - Cyrillic
-`ЎёђћҔӫӱӯӳӸҊӉҤҋӎРөѳ`
-  - Cyrillic Extended-B
-`ꚗ`
-  - Cyrillic Supplement
-`Ԇԇԗ`
-  - Miscellaneous Symbols
-`☮♯⛏☔⚗`
-  - IPA Extensions
-`ʥʨʬʭɯɼ`
+- fix characters in Main
   - Greek Extended
-`ἄᾺΆᾄᾎᾏἥἮᾕᾞἰἺἼἾὍὟὬὭᾬᾭ`
+`ἄ Ὰ Ά ᾄ ᾎ ᾏ ἥ Ἦ ᾕ ᾞ ἰ Ἲ Ἴ Ἶ Ὅ Ὗ Ὤ Ὥ ᾬ ᾭ`
+  - Cyrillic
+`Ў ё ђ ћ Ҕ ӫ ӱ ӯ ӳ Ӹ Ҋ Ӊ Ҥ ҋ ӎ Р ө ѳ`
+  - Latin Extended Additional
+`ḥ Ỉ ỉ Ḧ ḧ Ḩ ḩ Ḥ ṅ Ṥ ṥ`
+  - Latin Extended-B
+`Ǵ Ǧ Ǥ Ɯ ƣ ȿ Ƚ ƻ Ƀ`
+  - Armenian
+`Դ ե ճ ն ՟ ֊`
+  - IPA Extensions
+`ʥ ʨ ʬ ʭ ɯ ɼ`
+  - Runic
+`ᚯ ᚰ ᚾ ᛅ ᛧ ᛴ`
+  - Miscellaneous Symbols
+`☮ ♯ ⛏ ☔ ⚗`
+  - Cyrillic Supplement
+`Ԇ ԇ ԗ`
+  - Georgian
+`Ⴇ დ ე`
+  - Latin Extended-A
+`Đ ļ Ľ`
+  - Gothic
+`𐌱 𐌲`
   - Greek and Coptic
-`ϓη`
+`ϓ η`
   - Phonetic Extensions Supplement
-`ᶈᶋ`
+`ᶈ ᶋ`
   - Arrows
 `⇄`
-  - Supplemental Arrows-B
-`⥝`
-  - Superscripts and Subscripts
-`⁵₅`
-  - General Punctuation
-`‱`
-  - Armenian
-`Դեճն՟֊`
-  - Runic
-`ᚯᚰᚾᛅᛧᛴ`
-  - Georgian
-`Ⴇდე`
-  - Georgian Supplement
-`ⴈ`
   - Currency Symbols
 `₾`
+  - Cyrillic Extended-B
+`ꚗ`
+  - General Punctuation
+`‱`
+  - Georgian Supplement
+`ⴈ`
   - Geometric Shapes
 `◎`
-  - Gothic
-`𐌱𐌲`
   - Miscellaneous Symbols and Pictographs
 `🏹`
+  - Superscripts and Subscripts
+`⁵₅`
+  - Supplemental Arrows-B
+`⥝`
+- fix characters in Tweaked
+  - mostly inherits changes from Main
+  - Box Drawing
+`─ ┌ └ ┬ ┴ ├ ┼ ╒ ╘ ╥ ╨ ╞ ╪ ═ ╔ ╚ ╦ ╩ ╠ ╬ ╓ ╙ ╤ ╧ ╟ ╫`
+<br>
+(start & middle lines are 1px longer)
+  - Georgian
+`ჵ`
+  - IPA Extensions
+`ʣ`
 
 i also redid font generation again :p
 

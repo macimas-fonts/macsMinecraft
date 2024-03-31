@@ -1,6 +1,6 @@
 local pack_id = arg[1]
 	or error "no id?"
-local dir = string.format("variants/%s/", pack_id)
+local dir = string.format("fonts/%s/", pack_id)
 local regular_dir = dir.."Regular/"
 local bold_dir = dir.."Bold/"
 local cli = 'cd "'..bold_dir..'"; find -maxdepth 1 -name "*.png" -printf "%P\n"'

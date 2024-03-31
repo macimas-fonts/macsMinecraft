@@ -1,8 +1,8 @@
 local JSON = require("lunajson")
 
 local pack_id = arg[1] or error "no id?"
-local dir = "variants/"..pack_id.."/"
-local f = io.open("variants/basis.json", "r")
+local dir = "fonts/"..pack_id.."/"
+local f = io.open("fonts/basis.json", "r")
 io.input(f)
 local base_font_json = JSON.decode(io.read("*all"))
 f:close()
