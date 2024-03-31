@@ -30,7 +30,7 @@
 <br>
 *→ Minecraft font with bold and italic styles*
 <br>
-![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20woff2.zip)![\]](./GITHUB/download container end.png)
+![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
 this is most likely what you're looking for! it should cover almost every character in respect to Minecraft Java 1.20.4
 
@@ -66,7 +66,7 @@ this is most likely what you're looking for! it should cover almost every charac
 <br>
 *→ tweaks characters in main package*
 <br>
-![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20woff2.zip)![\]](./GITHUB/download container end.png)
+![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
 tweakity with no regard if it actually makes it better. let me know if bad in Issues page
 
@@ -98,7 +98,7 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 <br>
 *→ adds more characters to main package*
 <br>
-![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20woff2.zip)![\]](./GITHUB/download container end.png)
+![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
 a little experiment. i dont really like most of it turned out. i may add more and polish this up in later versions, but for now it just exists `:p`
 
@@ -126,7 +126,7 @@ a little experiment. i dont really like most of it turned out. i may add more an
 <br>
 *→ it's that secret font in Java and the runic font in Dungeons*
 <br>
-![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20woff2.zip)![\]](./GITHUB/download container end.png)
+![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
 yep. also do note that this isn't based on any package
 
@@ -150,7 +150,7 @@ yep. also do note that this isn't based on any package
 <br>
 *→ simply bold more readable*
 <br>
-![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20woff2.zip)![\]](./GITHUB/download container end.png)
+![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
 <details>
 	<summary>previews</summary>
