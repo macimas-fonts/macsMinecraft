@@ -64,7 +64,7 @@ this is most likely what you're looking for! it should cover almost every charac
 
 ![](./GITHUB/tweaked%20package.png)
 <br>
-*→ tweaks characters in main package*
+*→ tweaks characters in main fonts*
 <br>
 ![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
@@ -96,7 +96,7 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 
 ![](./GITHUB/extended%20package.png)
 <br>
-*→ adds more characters to main package*
+*→ adds more characters to main fonts*
 <br>
 ![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
@@ -108,7 +108,7 @@ a little experiment. i dont really like most of it turned out. i may add more an
 	<br>
 	<img src="./GITHUB/extended preview 1.png">
 	<br>
-	please note that some characters aren't built properly due to the converter i use. it does provide a fix but filesize triples and im too stubborn, so yeah. i dont realy care for now since you probably dont really need to use this package anyway
+	please note that some characters aren't built properly due to the converter i use. it does provide a fix but filesize triples and im too stubborn, so yeah. i dont realy care for now since you probably dont really need to use these fonts anyway
 	<br>
 	<img src="./GITHUB/extended preview 2.png">
 </details>
@@ -128,7 +128,7 @@ a little experiment. i dont really like most of it turned out. i may add more an
 <br>
 ![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
-yep. also do note that this isn't based on any package
+yep. also do note that this isn't based on any font, altho it probably would make sense to base it on main
 
 <details>
 	<summary>previews</summary>
@@ -181,7 +181,7 @@ uhmmm not sure why you need to do that but here's some prerequisites:
 
 then run the script `lua generate.lua`
 
-it should generate fonts in `temp/`, and zip those fonts into their respective packages in `build/`
+it should generate fonts in `temp/`, and put those fonts into their respective zips in `build/`
 
 
 ## some boring background info
