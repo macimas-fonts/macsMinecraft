@@ -1,29 +1,38 @@
-<img align="left" src="GITHUB/bennett.png" alt="strange grass block">
-
-# mac's Minecraft
-
-a rough 1:1 recreation of the Minecraft font
-
-kudos to [YellowAfterlife's pixel font converter](https://yal.cc/r/20/pixelfont/)
-
+<h1 align="center">
+	<img src="GITHUB/bennett.png" alt="strange grass block">
+	<br>
+	mac's Minecraft
+</h1>
+<p align="center">
+	a rough 1:1 recreation of the Minecraft font
+	<br>
+	<small>kudos to <a href="https://yal.cc/r/20/pixelfont">YellowAfterlife's pixel font converter</a></small>
+</p>
 
 <img align="right" src="./GITHUB/mmm... font!.png">
 
-## packages
+## fonts
 
-<p>
-	<img src="./GITHUB/main%20package.png" alt="main">
-	<br>
-	→ <i>Minecraft font with bold and italic styles</i>
-	<br>
-	( 📥 ← 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20ttf.zip"><code>ttf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20otf.zip"><code>otf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20woff2.zip"><code>woff2</code></a> 
-	)
-</p>
+> ![](./GITHUB/little%20notice.png)
+> <br>
+> these fonts mostly aren't thoroughly tested!!
+><br>
+> feel free to let me know in Issues page if you have issue or suggestion with these packages `:)`
+>
+> also another thing, glyph table dropdowns reveal those in future update 1.03 `:p`.
+><br>
+> i should probably put wip stuff in its own branch
 
-this is most likely what you're looking for! it should cover almost every character in respect to Minecraft Java 1.20.x
+
+<hr>
+
+![main](./GITHUB/main%20package.png)
+<br>
+*→ Minecraft font with bold and italic styles*
+<br>
+![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20woff2.zip)![\]](./GITHUB/download container end.png)
+
+this is most likely what you're looking for! it should cover almost every character in respect to Minecraft Java 1.20.4
 
 <details>
 	<summary>previews</summary>
@@ -47,22 +56,17 @@ this is most likely what you're looking for! it should cover almost every charac
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/Main/Main.png">
+	<img src="./fonts/Main/Regular.png">
+	<img src="./fonts/Main/Bold.png">
 </details>
 
 <hr>
 
-<p>
-	<img src="./GITHUB/tweaked%20package.png" alt="tweaked">
-	<br>
-	→ <i>tweaks characters in main package</i>
-	<br>
-	( 📥 ← 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Tweaked%20ttf.zip"><code>ttf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Tweaked%20otf.zip"><code>otf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Tweaked%20woff2.zip"><code>woff2</code></a> 
-	)
-</p>
+![](./GITHUB/tweaked%20package.png)
+<br>
+*→ tweaks characters in main package*
+<br>
+![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20woff2.zip)![\]](./GITHUB/download container end.png)
 
 tweakity with no regard if it actually makes it better. let me know if bad in Issues page
 
@@ -83,24 +87,18 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/Tweaked/Tweaked.png">
+	<img src="./fonts/Tweaked/Regular.png">
 	<br>
-	<img src="./base/Tweaked/Tweaked Bold.png">
+	<img src="./fonts/Tweaked/Bold.png">
 </details>
 
 <hr>
 
-<p>
-	<img src="./GITHUB/extended%20package.png" alt="extended">
-	<br>
-	→ <i>adds more characters to main package</i>
-	<br>
-	( 📥 ← 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20ttf.zip"><code>ttf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20otf.zip"><code>otf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20woff2.zip"><code>woff2</code></a> 
-	)
-</p>
+![](./GITHUB/extended%20package.png)
+<br>
+*→ adds more characters to main package*
+<br>
+![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20woff2.zip)![\]](./GITHUB/download container end.png)
 
 a little experiment. i dont really like most of it turned out. i may add more and polish this up in later versions, but for now it just exists `:p`
 
@@ -117,22 +115,18 @@ a little experiment. i dont really like most of it turned out. i may add more an
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/Extended/Extended.png">
+	<img src="./fonts/Extended/Regular.png">
+	<br>
+	<img src="./fonts/Extended/Bold.png">
 </details>
 
 <hr>
 
-<p>
-	<img src="./GITHUB/illageralt%20package.png" alt="extended">
-	<br>
-	→ <i>it's that secret font in Java and the runic font in Dungeons</i>
-	<br>
-	( 📥 ← 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20ttf.zip"><code>ttf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20otf.zip"><code>otf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20woff2.zip"><code>woff2</code></a> 
-	)
-</p>
+![](./GITHUB/illageralt%20package.png)
+<br>
+*→ it's that secret font in Java and the runic font in Dungeons*
+<br>
+![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20woff2.zip)![\]](./GITHUB/download container end.png)
 
 yep. also do note that this isn't based on any package
 
@@ -145,22 +139,18 @@ yep. also do note that this isn't based on any package
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/Illageralt/Illageralt.png">
+	<img src="./fonts/Illageralt/Regular.png">
+	<br>
+	<img src="./fonts/Illageralt/Bold.png">
 </details>
 
 <hr>
 
-<p>
-	<img src="./GITHUB/illageralt%20tweaked%20package.png" alt="extended">
-	<br>
-	→ <i>simply bold more readable</i>
-	<br>
-	( 📥 ← 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20ttf.zip"><code>ttf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20otf.zip"><code>otf</code></a> 
-		<a href="https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20woff2.zip"><code>woff2</code></a> 
-	)
-</p>
+![](./GITHUB/illageralt%20tweaked%20package.png)
+<br>
+*→ simply bold more readable*
+<br>
+![\[](./GITHUB/download container start.png)[![](./GITHUB/ttf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20ttf.zip)[![](./GITHUB/otf download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20otf.zip)[![](./GITHUB/woff2 download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20woff2.zip)![\]](./GITHUB/download container end.png)
 
 <details>
 	<summary>previews</summary>
@@ -171,12 +161,10 @@ yep. also do note that this isn't based on any package
 
 <details>
 	<summary>glyph table</summary>
-	<img src="./base/Illageralt Tweaked/Illageralt Tweaked Bold.png">
+	<img src="./fonts/Illageralt Tweaked/Bold.png">
 </details>
 
 <hr>
-
-**note:** these fonts haven't been thoroughly tested. feel free to let me know in Issues page if you have issue or suggestion with these packages `:)`
 
 
 ## license
