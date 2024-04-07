@@ -15,7 +15,7 @@
 
 > ![](./GITHUB/little%20notice.png)
 > <br>
-> these fonts mostly aren't thoroughly tested!!
+> these fonts are incompetently made, so expect some issues!!
 ><br>
 > feel free to let me know in Issues page if you have issue or suggestion with these packages `:)`
 
