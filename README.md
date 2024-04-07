@@ -18,6 +18,8 @@
 > these fonts are incompetently made, so expect some issues!!
 ><br>
 > feel free to let me know in Issues page if you have issue or suggestion with these packages `:)`
+>
+> also!!! this project isn't affiliated with Mojang in any way!
 
 for downloads, check [Releases page](https://github.com/macimas-fonts/macsMinecraft/releases)
 
@@ -30,7 +32,7 @@ for downloads, check [Releases page](https://github.com/macimas-fonts/macsMinecr
 
 this is most likely what you're looking for!
 <br>
-it should cover almost every character in respect to Minecraft Java 1.20.4
+containing **2410** characters, it should cover almost every character in respect to Minecraft Java 1.20.4
 
 <details>
 	<summary>previews</summary>
@@ -103,7 +105,9 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 <br>
 *→ adds more characters to Main fonts*
 
-a little experiment. i dont really like most of it turned out. i may add more and polish this up in later versions, but for now it just exists `:p`
+a little experiment that currently adds around **527** characters.
+<br>
+i dont really like most of it turned out. i may add more and polish this up in later versions, but for now it just exists `:p`
 
 <details>
 	<summary>previews</summary>
