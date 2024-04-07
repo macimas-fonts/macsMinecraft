@@ -1,33 +1,56 @@
-## 1.03 - wip
-this release should fix most issues with Main font. hopefully!!!!
+## 1.03 - April 8, 2024
+this release should fix most parity issues between Main and Minecraft's font
 
 oh yeah i call them fonts instead of packages now, for reasons `:v`
 
-- new font: Extended Tweaked
+- new fonts: Amalgam
   - combines Extended and Tweaked fonts, of course!
-- add characters `/ … ‽ ⟘ ʻ ˌ ◘ Ӽ Ӿ ӽ ӿ ӻ ̧  ˙`
-- use `✘` instead of `✗`
-- fix characters in Main
+- Illageralt fonts are now based on Main fonts
+- Illageralt Tweaked fonts are now based on Tweaked fonts
+- use `✘` instead of `✗` in Main and Tweaked fonts
+- add characters in Main and Tweaked fonts
+  - Cyrillic
+`Ӽ Ӿ ӽ ӿ ӻ`
+  - Spacing Modifier Letters
+`ʻ ˌ ˙`
+  - Basic Latin
+`/`
+  - General Punctuation
+`… ‽`
+  - Geometric Shapes
+`◘`
+  - Latin-1 Supplement
+` ̧`
+  - Miscellaneous Mathematical Symbols-A
+`⟘`
+- add characters in Extended fonts
+  - Emoticons
+`😀 😁 😂 😃 😄 😅 😆 😇 😈 😉 😊 😋 😌 😍 😎 😏 😐 😑 😒 😓 😔 😕 😖 😗 😘 😙 😚 😛 😜 😝 😞 😟
+😠 😡 😢 😣 😤 😥 😦 😧 😨 😩 😪 😫 😬 😭 😮 😯 😰 😱 😲 😳 😴 😵 😶 😷 😸 😹 😺 😻 😼 😽 😾 😿
+🙀 🙁 🙂 🙃 🙄 🙅 🙆 🙇 🙈 🙉 🙊`
+- tweak characters in Main fonts
   - Greek Extended
-`ἄ Ὰ Ά ᾄ ᾎ ᾏ ἥ Ἦ ᾕ ᾞ ἰ Ἲ Ἴ Ἶ Ὅ Ὗ Ὤ Ὥ ᾬ ᾭ`
+`ἄ Ὰ Ά ᾄ ᾎ ᾏ ἥ Ἦ ᾕ ᾞ ἰ Ἲ Ἴ Ἶ Ὅ Ὗ Ὤ Ὥ ᾬ ᾭ Ἆ Ἱ`
   - Cyrillic
 `Ў ё ђ ћ Ҕ ӫ ӱ ӯ ӳ Ӹ Ҋ Ӊ Ҥ ҋ ӎ Р ө ѳ`
   - Latin Extended Additional
-`ḥ Ỉ ỉ Ḧ ḧ Ḩ ḩ Ḥ ṅ Ṥ ṥ`
+`ḥ Ỉ ỉ Ḧ ḧ Ḩ ḩ Ḥ ṅ Ṥ ṥ ẞ`
   - Latin Extended-B
-`Ǵ Ǧ Ǥ Ɯ ƣ ȿ Ƚ ƻ Ƀ`
+`Ǵ Ǧ Ǥ Ɯ ƣ ȿ Ƚ ƻ Ƀ ư Ƕ ȗ`
+  - IPA Extensions
+`ʥ ʨ ʬ ʭ ɯ ɼ ɐ ʄ`
   - Armenian
 `Դ ե ճ ն ՟ ֊`
-  - IPA Extensions
-`ʥ ʨ ʬ ʭ ɯ ɼ`
   - Runic
 `ᚯ ᚰ ᚾ ᛅ ᛧ ᛴ`
   - Miscellaneous Symbols
 `☮ ♯ ⛏ ☔ ⚗`
   - Cyrillic Supplement
-`Ԇ ԇ ԗ`
+`Ԇ ԇ ԗ Ԅ`
   - Georgian
-`Ⴇ დ ე`
+`Ⴇ დ ე Ⴥ`
+  - Basic Latin
+`7 @ ^`
   - Latin Extended-A
 `Đ ļ Ľ`
   - Gothic
@@ -36,6 +59,10 @@ oh yeah i call them fonts instead of packages now, for reasons `:v`
 `ϓ η`
   - Phonetic Extensions Supplement
 `ᶈ ᶋ`
+  - Latin Extended-D
+`ꜿ`
+  - Phonetic Extensions
+`ᵫ`
   - Arrows
 `⇄`
   - Currency Symbols
@@ -48,18 +75,21 @@ oh yeah i call them fonts instead of packages now, for reasons `:v`
 `ⴈ`
   - Geometric Shapes
 `◎`
+  - Latin-1 Supplement
+`£`
   - Miscellaneous Symbols and Pictographs
 `🏹`
+  - Runic
+`ᛟ`
   - Superscripts and Subscripts
 `⁵₅`
   - Supplemental Arrows-B
 `⥝`
-- fix characters in Tweaked
+- tweak characters in Tweaked fonts
   - mostly inherits changes from Main
   - Box Drawing
 `─ ┌ └ ┬ ┴ ├ ┼ ╒ ╘ ╥ ╨ ╞ ╪ ═ ╔ ╚ ╦ ╩ ╠ ╬ ╓ ╙ ╤ ╧ ╟ ╫`
-<br>
-(start & middle lines are 1px longer)
+<br>(horizontal lines are 1px longer)
   - Georgian
 `ჵ`
   - IPA Extensions

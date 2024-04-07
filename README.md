@@ -18,55 +18,56 @@
 > these fonts mostly aren't thoroughly tested!!
 ><br>
 > feel free to let me know in Issues page if you have issue or suggestion with these packages `:)`
->
-> also another thing, glyph table dropdowns reveal those in future update 1.03 `:p`.
-><br>
-> i should probably put wip stuff in its own branch
+
+for downloads, check [Releases page](https://github.com/macimas-fonts/macsMinecraft/releases)
 
 
 <hr>
 
-![main](./GITHUB/main%20package.png)
+![main](./GITHUB/header/Main.png)
 <br>
 *→ Minecraft font with bold and italic styles*
-<br>
-![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
 
-this is most likely what you're looking for! it should cover almost every character in respect to Minecraft Java 1.20.4
+this is most likely what you're looking for!
+<br>
+it should cover almost every character in respect to Minecraft Java 1.20.4
 
 <details>
 	<summary>previews</summary>
 	some sample text
 	<br>
-	<img src="./GITHUB/main preview 1.png">
+	<img src="./GITHUB/preview/main_1.png">
 	<hr>
 	bold and italic styles, with bold being strange as ever
 	<br>
-	please note that italic has a little kerning issue that i do not know how to fix yet. sorry
-	<img src="./GITHUB/main preview 2.png">
+	<img src="./GITHUB/preview/main_2.gif">
 	<hr>
 	a boring little story
 	<br>
-	<img src="./GITHUB/main preview 3.png">
+	<img src="./GITHUB/preview/main_3.png">
 	<hr>
 	some goofy thing i wrote for some odd reason
 	<br>
-	<img src="./GITHUB/main preview 4.png">
+	<img src="./GITHUB/preview/main_4.png">
 </details>
 
 <details>
 	<summary>glyph table</summary>
+	Regular
+	<br>
 	<img src="./fonts/Main/Regular.png">
+	<br>
+	Bold
+	<br>
 	<img src="./fonts/Main/Bold.png">
 </details>
 
 <hr>
 
-![](./GITHUB/tweaked%20package.png)
+![](./GITHUB/header/Tweaked.png)
 <br>
-*→ tweaks characters in main fonts*
-<br>
-![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft20Tweaked%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
+*→ tweaks characters in Main fonts*
+
 
 tweakity with no regard if it actually makes it better. let me know if bad in Issues page
 
@@ -74,31 +75,33 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 	<summary>previews</summary>
 	tweaks some things, i guess..
 	<br>
-	<img src="./GITHUB/tweaked preview 1.png">
+	<img src="./GITHUB/preview/tweaked_1.gif">
 	<hr>
 	bold style should be more readable
 	<br>
-	<img src="./GITHUB/tweaked preview 2.png">
+	<img src="./GITHUB/preview/tweaked_2.gif">
 	<hr>
 	some characters will not be bolden in bold style, for reasons!
 	<br>
-	<img src="./GITHUB/tweaked preview 3.png">
+	<img src="./GITHUB/preview/tweaked_3.gif">
 </details>
 
 <details>
 	<summary>glyph table</summary>
+	Regular
+	<br>
 	<img src="./fonts/Tweaked/Regular.png">
+	<br>
+	Bold
 	<br>
 	<img src="./fonts/Tweaked/Bold.png">
 </details>
 
 <hr>
 
-![](./GITHUB/extended%20package.png)
+![](./GITHUB/header/Extended.png)
 <br>
-*→ adds more characters to main fonts*
-<br>
-![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Extended%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
+*→ adds more characters to Main fonts*
 
 a little experiment. i dont really like most of it turned out. i may add more and polish this up in later versions, but for now it just exists `:p`
 
@@ -106,61 +109,93 @@ a little experiment. i dont really like most of it turned out. i may add more an
 	<summary>previews</summary>
 	a little arrowy and sparkly preview, with (most likely) bonked Shavian sentence
 	<br>
-	<img src="./GITHUB/extended preview 1.png">
+	<img src="./GITHUB/preview/extended_1.png">
 	<br>
 	please note that some characters aren't built properly due to the converter i use. it does provide a fix but filesize triples and im too stubborn, so yeah. i dont realy care for now since you probably dont really need to use these fonts anyway
 	<br>
-	<img src="./GITHUB/extended preview 2.png">
+	<img src="./GITHUB/preview/extended_2.png">
+	<br>
+	an attempt to do emoticons
+	<br>
+	<img src="./GITHUB/preview/extended_3.png">
 </details>
 
 <details>
 	<summary>glyph table</summary>
+	Regular
+	<br>
 	<img src="./fonts/Extended/Regular.png">
+	<br>
+	Bold
 	<br>
 	<img src="./fonts/Extended/Bold.png">
 </details>
 
 <hr>
 
-![](./GITHUB/illageralt%20package.png)
+![](./GITHUB/header/Amalgam.png)
 <br>
-*→ it's that secret font in Java and the runic font in Dungeons*
-<br>
-![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
+*→ simply Main + Tweaked + Extended fonts*
 
-yep. also do note that this isn't based on any font, altho it probably would make sense to base it on main
+quick n dirty
 
 <details>
 	<summary>previews</summary>
-	the font! with main font for comparison
-	<br>
-	<img src="./GITHUB/illageralt preview 1.png">
+	refer to their dedicated sections
 </details>
 
 <details>
 	<summary>glyph table</summary>
+	Bold
+	<br>
+	<img src="./fonts/Amalgam/Bold.png">
+</details>
+
+<hr>
+
+![](./GITHUB/header/Illageralt.png)
+<br>
+*→ it's that secret font in Java and the runic font in Dungeons*
+
+yep!
+
+<details>
+	<summary>previews</summary>
+	the fonts! with Main fonts for comparison
+	<br>
+	<img src="./GITHUB/preview/illageralt_1.gif">
+</details>
+
+<details>
+	<summary>glyph table</summary>
+	Regular
+	<br>
 	<img src="./fonts/Illageralt/Regular.png">
+	<br>
+	Bold
 	<br>
 	<img src="./fonts/Illageralt/Bold.png">
 </details>
 
 <hr>
 
-![](./GITHUB/illageralt%20tweaked%20package.png)
+![](./GITHUB/header/IllageraltTweaked.png)
 <br>
 *→ simply bold more readable*
-<br>
-![\[](./GITHUB/download%20container%20start.png)[![](./GITHUB/ttf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20ttf.zip)[![](./GITHUB/otf%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20otf.zip)[![](./GITHUB/woff2%20download.png)](https://github.com/macimas/macsMinecraft/raw/main/build/mac's%20Minecraft%20Illageralt%20Tweaked%20woff2.zip)![\]](./GITHUB/download%20container%20end.png)
+
+yep!
 
 <details>
 	<summary>previews</summary>
 	bold is most likely more readable, maybe
 	<br>
-	<img src="./GITHUB/illageralt tweaked preview 1.png">
+	<img src="./GITHUB/preview/illageralt_tweaked_1.gif">
 </details>
 
 <details>
 	<summary>glyph table</summary>
+	Bold
+	<br>
 	<img src="./fonts/Illageralt Tweaked/Bold.png">
 </details>
 
@@ -173,20 +208,9 @@ fonts are under [SIL Open Font License](./LICENSE)
 feel free and open source to use these fonts freely, for personal and commercial purposes! `:D`
 
 
-## how to build?
-uhmmm not sure why you need to do that but here's some prerequisites:
-
-- Linux (sorry...)
-- other things (`lua`, `fontforge`, `findutils`, `zip`)
-
-then run the script `lua generate.lua`
-
-it should generate fonts in `temp/`, and put those fonts into their respective zips in `build/`
-
-
 ## some boring background info
 
-i started this back in around December 2022 when i couldn't find a nice Minecraft font. they were either not pixel-perfect, outdated, or were quite lacking or weird looking
+i started this back in around December 2022 when i couldn't find a nice Minecraft font. they were either not pixel-perfect, outdated, or were quite lacking or weird looking (i am quite nitpicky)
 
 initial attempt only contained Basic Latin and some other characters i needed. was pretty satisfied with it and kept it as is for an entire year, until i revisited the font in December 2023
 
@@ -194,4 +218,15 @@ was pretty bored in christmas break and thought "wat if i make a mc font that's 
 
 "no way in hell i'm gonna be able to do that" i said, but tried anyway, making this my most ambitious font recreation yet
 
-also this was previously released as "mdt's Minecraft" only on github, but decided to rename it and release it as separate font for terrible reasons `:v` the previous version is still up in my fonts repo, but i'd rather not you find it `>:(` 
+also this was previously released as "mdt's Minecraft" only on github, but decided to rename it and release it as separate font for terrible reasons `:v` the previous version is still up in my fonts repo, but i'd rather not you find it `>:(`
+
+
+## how to build?
+uhmmm not sure why you need to do that but here's some prerequisites:
+
+- Linux (not sure if it works on Windows)
+- FontForge
+
+then run the script `fontforge -quiet -script generate.py`
+
+it should put generated fonts in `TEMP/`

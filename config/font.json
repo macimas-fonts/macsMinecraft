@@ -6,16 +6,21 @@
 		"default": "a rough 1:1 recreation of the Minecraft font"
 	},
 	"exports": [
-		"ttf"
+		"ttf",
+		"otf",
+		"woff2"
 	],
 	"packs": {
 		"Main":             { "basis": [ "_" ] },
 		"Tweaked":          { "basis": [ "_", "Main" ] },
 		"Extended":         { "basis": [ "_", "Main" ] },
-		"Extended Tweaked": { "basis": [ "_", "Extended", "Tweaked", "Main" ] },
+		"Amalgam":          { "basis": [ "_", "Extended", "Tweaked", "Main" ] },
 
 		"Illageralt":         { "basis": [ "_", "Main" ] },
-		"Illageralt Tweaked": { "basis": [ "_", "Tweaked", "Illageralt" ] }
+		"Illageralt Tweaked": { "basis": [ "_", "Tweaked", "Illageralt", "Main" ] }
 	},
-	"name_filter": "[^a-zA-Z]+"
+	"name_filter": "[^a-zA-Z]+",
+	"base_dir": "fonts/",
+	"temp_dir": "TEMP/",
+	"license_file": "LICENSE"
 }
