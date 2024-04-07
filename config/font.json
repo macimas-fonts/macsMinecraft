@@ -14,7 +14,8 @@
 		"Extended":         { "basis": [ "_", "Main" ] },
 		"Extended Tweaked": { "basis": [ "_", "Extended", "Tweaked", "Main" ] },
 
-		"Illageralt":         { "basis": [ "_" ] },
-		"Illageralt Tweaked": { "basis": [ "_", "Illageralt" ] }
-	}
+		"Illageralt":         { "basis": [ "_", "Main" ] },
+		"Illageralt Tweaked": { "basis": [ "_", "Tweaked", "Illageralt" ] }
+	},
+	"name_filter": "[^a-zA-Z]+"
 }
