@@ -1,24 +1,32 @@
 {
 	"id": "macimas-Minecraft",
 	"name": "mac's Minecraft",
-	"version": 1.03,
-	"description": {
-		"default": "a rough 1:1 recreation of the Minecraft font"
-	},
-	"exports": [
-		"ttf",
-		"otf",
-		"woff2"
-	],
-	"packs": {
-		"Main":             { "basis": [ "_" ] },
-		"Tweaked":          { "basis": [ "_", "Main" ] },
-		"Extended":         { "basis": [ "_", "Main" ] },
-		"Amalgam":          { "basis": [ "_", "Extended", "Tweaked", "Main" ] },
+	"version": 1.04,
+	"copyright": "© macimas",
+	"description":
+		"a rough 1:1 recreation of the Minecraft font",
+
+	"exports": [ "ttf" ],
+	"fonts": {
+		"Main":     { "basis": [ "_" ] },
+		"Tweaked":  { "basis": [ "_", "Main" ] },
+		"Extended": { "basis": [ "_", "Main" ] },
+		"Amalgam":  { "basis": [ "_", "Extended", "Tweaked", "Main" ] },
 
 		"Illageralt":         { "basis": [ "_", "Main" ] },
 		"Illageralt Tweaked": { "basis": [ "_", "Tweaked", "Illageralt", "Main" ] }
 	},
+
+	"font_skew": 12,
+	"space_width": {
+		"Regular": 512,
+		"Bold": 640
+	},
+	"os2_weight": {
+		"Regular": 400,
+		"Bold": 800
+	},
+
 	"name_filter": "[^a-zA-Z]+",
 	"base_dir": "fonts/",
 	"temp_dir": "TEMP/",
