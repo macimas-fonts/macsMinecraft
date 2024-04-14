@@ -17,14 +17,12 @@
 		"Illageralt Tweaked": { "basis": [ "_", "Tweaked", "Illageralt", "Main" ] }
 	},
 
+	"width_per_pixel": 128,
 	"font_skew": 12,
-	"space_width": {
-		"Regular": 512,
-		"Bold": 640
-	},
+	"exempted_glyphs": ["space", ".notdef", ".null", "uni000D", "uni3000"]
 	"os2_weight": {
 		"Regular": 400,
-		"Bold": 800
+		"Bold": 700
 	},
 
 	"name_filter": "[^a-zA-Z]+",

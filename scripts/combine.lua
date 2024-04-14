@@ -63,7 +63,7 @@ function combine(style)
 
 	os.execute(cli)
 
-	print("exported "..style)
+	print("updated "..style)
 end
 
 local cli = string.format(

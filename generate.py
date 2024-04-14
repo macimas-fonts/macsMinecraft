@@ -53,45 +53,38 @@ def style_it(pack_name, pack_config, style):
 
 	for glyph in font.selection.all().byGlyphs:
 		if glyph.foreground.isEmpty():
-			if glyph.glyphname not in ["space", ".notdef", ".null", "uni000D"]:
+			if glyph.glyphname not in config["exempted_glyphs"]:
 				font.removeGlyph(glyph)
 
-	for component in pack_config["basis"]:
-		logs = []
-		for pattern in config_glyphs:
-			if component == "_":
-				name = pack_name
+	for pattern in config_glyphs:
+		if pack_name in pattern["fonts"] or "_" in pattern["fonts"]:
+			if "_" in pattern["fonts"]:
+				name = "_"
 			else:
-				name = component
+				name = pack_name
 
-			if name not in pattern["fonts"]:
-				if component not in pattern["fonts"]:
-					continue
+			def set_prop(prop, value):
+				if not hasattr(glyph, prop):
+					return
+
+				if prop in props:
+					setattr(glyph, prop, value)
+
+			def get_value(values):
+				if is_bold:
+					return values["Bold"]
+				else:
+					return values["Regular"]
 
 			for glyph in list(pattern["glyphs"]):
 				for glyph in font.selection.select(ord(glyph)).byGlyphs:
-					props = pattern["props"]
+					props = pattern["fonts"][name]
+					wpx = config["width_per_pixel"]
 
-					def set_prop(prop, value):
-						if not hasattr(glyph, prop):
-							return
+					set_prop("width", get_value(props["width"]) * wpx)
 
-						if prop in props:
-							setattr(glyph, prop, value)
-
-					def get_value(values):
-						if is_bold:
-							return values["Bold"]
-						else:
-							return values["Regular"]
-
-					set_prop("width", get_value(props["width"]))
-
-			logs.append(pattern)
-
-			if logs:
-				print(f'\033[93m   [💛] set glyphs in {name} [[{pattern["glyphs"]}]]\033[0m')
-				print(f'\033[93m        props: {pattern["props"]}\033[0m')
+			print(f'\033[93m   [💛] set glyphs in {name} [[{pattern["glyphs"]}]]\033[0m')
+			print(f'\033[93m        props set: {pattern["fonts"][name]}\033[0m')
 
 	if is_italic:
 		font.selection.all()
