@@ -19,7 +19,7 @@
 
 	"width_per_pixel": 128,
 	"font_skew": 12,
-	"exempted_glyphs": ["space", ".notdef", ".null", "uni000D", "uni3000"]
+	"exempted_glyphs": ["space", ".notdef", ".null", "uni000D", "uni3000"],
 	"os2_weight": {
 		"Regular": 400,
 		"Bold": 700
