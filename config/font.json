@@ -18,7 +18,9 @@
 	},
 
 	"width_per_pixel": 128,
-	"font_skew": 12,
+	"font_italic_skew": 14,
+	"font_italic_x_offset": -0.8,
+	"font_strikethrough_y_offset": 3.5,
 	"exempted_glyphs": ["space", ".notdef", ".null", "uni000D", "uni3000"],
 	"os2_weight": {
 		"Regular": 400,

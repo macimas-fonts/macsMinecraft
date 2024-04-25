@@ -4,13 +4,17 @@ import json
 import random
 import re
 import zipfile
-ff = fontforge
+
+import fontforge as ff
+import psMat
 
 config = json.load(open("config/font.json"))
+config["font_italic_skew"] = psMat.skew(math.radians(config["font_italic_skew"]))
+config["font_italic_x_offset"] = config["width_per_pixel"] * config["font_italic_x_offset"]
+config["font_italic_x_offset"] = psMat.translate(config["font_italic_x_offset"], 0)
+
 config_glyphs = json.load(open("config/glyphs.json"))
 quotes = json.load(open("config/quotes.json"))
-
-config["font_skew"] = psMat.skew(math.radians(config["font_skew"]))
 
 license = open(config["license_file"])
 license = license.read()
@@ -88,7 +92,8 @@ def style_it(pack_name, pack_config, style):
 
 	if is_italic:
 		font.selection.all()
-		font.transform(config["font_skew"])
+		font.transform(config["font_italic_skew"])
+		font.transform(config["font_italic_x_offset"], ("noWidth"))
 
 	if is_bold:
 		font.os2_weight = config["os2_weight"]["Bold"]
@@ -101,6 +106,10 @@ def style_it(pack_name, pack_config, style):
 	font.fontname = id_name
 	font.os2_stylemap = stylemap[style]
 	font.sfntRevision = config["version"]
+	font.upos = -config["width_per_pixel"]
+	font.uwidth = config["width_per_pixel"]
+	font.os2_strikeypos = int(config["width_per_pixel"] * config["font_strikethrough_y_offset"])
+	font.os2_strikeysize = config["width_per_pixel"]
 
 	if pack_name == "Main":
 		font.familyname = config["name"]
