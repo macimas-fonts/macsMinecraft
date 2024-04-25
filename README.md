@@ -1,25 +1,17 @@
-<h1 align="center">
-	<img src="GITHUB/bennett.png" alt="strange grass block">
-	<br>
-	mac's Minecraft
-</h1>
 <p align="center">
-	a rough 1:1 recreation of the Minecraft font
-	<br>
-	<small>kudos to <a href="https://yal.cc/r/20/pixelfont">YellowAfterlife's pixel font converter</a></small>
+	<img src="./GITHUB/header.png" alt="mac's Minecraft">
 </p>
 
 <img align="right" src="./GITHUB/mmm... font!.png">
 
 ## fonts
-
 > ![](./GITHUB/little%20notice.png)
 > <br>
 > these fonts are incompetently made, so expect some issues!!
 ><br>
 > feel free to let me know in Issues page if you have issue or suggestion with these packages `:)`
 >
-> also!!! this project isn't affiliated with Mojang in any way!
+> also!!! this project isn't affiliated with Mojang nor Microsoft in any way!
 
 for downloads, check [Releases page](https://github.com/macimas-fonts/macsMinecraft/releases)
 
@@ -68,10 +60,11 @@ containing **2410** characters, it should cover almost every character in respec
 
 ![](./GITHUB/header/Tweaked.png)
 <br>
-*→ tweaks characters in Main fonts*
+*→ tweaks characters in Main font*
 
-
-tweakity with no regard if it actually makes it better. let me know if bad in Issues page
+tweakity some characters, and tries to make Bold style more readable
+<br>
+made with my personal taste. let me know if bad in Issues page
 
 <details>
 	<summary>previews</summary>
@@ -103,11 +96,11 @@ tweakity with no regard if it actually makes it better. let me know if bad in Is
 
 ![](./GITHUB/header/Extended.png)
 <br>
-*→ adds more characters to Main fonts*
+*→ adds more characters to Main font*
 
-a little experiment that currently adds around **527** characters.
+a very rough attempt. currently adds around **1500+** characters
 <br>
-i dont really like most of it turned out. i may add more and polish this up in later versions, but for now it just exists `:p`
+i'm relatively unsure what to think of it. a lot of characters dont look good with the default line spacing and some look strange and goofy
 
 <details>
 	<summary>previews</summary>
@@ -141,7 +134,7 @@ i dont really like most of it turned out. i may add more and polish this up in l
 <br>
 *→ simply Main + Tweaked + Extended fonts*
 
-quick n dirty
+quick n dirty font that combines the other fonts
 
 <details>
 	<summary>previews</summary>
@@ -209,28 +202,67 @@ yep!
 ## license
 fonts are under [SIL Open Font License](./LICENSE)
 
-feel free and open source to use these fonts freely, for personal and commercial purposes! `:D`
+feel free and open source to use these fonts freely for personal and commercial purposes! `:D`
 
 
-## some boring background info
+## kudos
+- used [YellowAfterlife's pixel font converter](https://yal.cc/r/20/pixelfont) for making the base fonts
+- used [ezgif](https://ezgif.com) for making animated previews
+- lastly, thanks [Minecraft](https://www.minecraft.net) for existing
 
-i started this back in around December 2022 when i couldn't find a nice Minecraft font. they were either not pixel-perfect, outdated, or were quite lacking or weird looking (i am quite nitpicky)
+## least freqently asked questions
 
-initial attempt only contained Basic Latin and some other characters i needed. was pretty satisfied with it and kept it as is for an entire year, until i revisited the font in December 2023
+### Why did you make this?
+ah well, back around December 2022 i was trying to find a Minecraft font that i could use for one of my things. there were several fonts, but they were either not pixel-perfect, outdated, or were quite lacking or weird looking.
+
+a normal person would have chosen the most convenient font to use, but i am kind of a nitpicky person, and i am not a normal person (i think)
+
+so instead i decided to make my own pixel font!!! i used this [pixel font converter](https://yal.cc/r/20/pixelfont/) that uses images to make fonts and thought it was very cool
+
+the very first version contained Basic Latin and some other characters i needed. was pretty satisfied with it and kept it as is for an entire year, until i revisited the font a year later in December 2023
 
 was pretty bored in christmas break and thought "wat if i make a mc font that's 1:1 used ingame for funsies"
 
-"no way in hell i'm gonna be able to do that" i said, but tried anyway, making this my most ambitious font recreation yet
+"no way in hell i'm gonna be able to do that" i said, but tried anyway, making this probably my most ambitious project ever
 
-also this was previously released as "mdt's Minecraft" only on github, but decided to rename it and release it as separate font for terrible reasons `:v` the previous version is still up in my fonts repo, but i'd rather not you find it `>:(`
+also this was previously released as "mdt's Minecraft", but decided to rename it and release it as separate font for terrible reasons `:v` the previous version is still up in the `fonts` repo, but i'd rather not you find it `>:(`
 
 
-## how to build?
+### What are your plans for this?
+uhhh i dont really have any plans. i'm just going along with whatver i think and would like to work on
+
+
+### How do I contribute/add and tweak characters?
+uhmmmmm i'm not sure. i never really thought about other people contributing in mind, i just wanted to make smth for myself
+
+i guess you could probably suggest or make characters in Issues page and i might add them
+
+
+### How do I generate fonts?
 uhmmm not sure why you need to do that but here's some prerequisites:
 
 - Linux (not sure if it works on Windows)
-- FontForge
+- Python
+- FontForge 
 
-then run the script `fontforge -quiet -script generate.py`
-
+then run the script `python generate.py`
+<br>
 it should put generated fonts in `TEMP/`
+
+if it doesnt work, well that's too bad!
+
+
+### Your process for developing and generating fonts are stupid.
+haha sorry, i think it's the most convenient for me and i'm not particularly good at programming
+
+also i don't think that's a question
+
+
+### Why do you not properly capitalize your sentences?
+personal preference
+
+
+### What's with the dirt block icon?
+oh haha it's just a little drawing i did. his name is Bennett
+<br>
+say hi to him `:D`
