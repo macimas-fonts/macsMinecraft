@@ -5,7 +5,7 @@
 <img align="right" src="./GITHUB/mmm... font!.png">
 
 ## fonts
-> ![](./GITHUB/little%20notice.png)
+> ![⚠️ little notice](./GITHUB/little%20notice.png)
 > <br>
 > these fonts are incompetently made, so expect some issues!!
 ><br>
@@ -20,19 +20,19 @@ for downloads, check [Releases page](https://github.com/macimas-fonts/macsMinecr
 
 ![main](./GITHUB/header/Main.png)
 <br>
-*→ Minecraft font with bold and italic styles*
+*→ Minecraft font with Bold and Italic styles*
 
 this is most likely what you're looking for!
 <br>
-containing **2410** characters, it should cover almost every character in respect to Minecraft Java 1.20.4
+containing **2410** characters, it should cover almost every character 1:1 in respect to Minecraft Java 1.20.4
 
 <details>
 	<summary>previews</summary>
-	some sample text
+	some sample texts
 	<br>
 	<img src="./GITHUB/preview/main_1.png">
 	<hr>
-	bold and italic styles, with bold being strange as ever
+	Bold and Italic styles, with Bold being strange as ever
 	<br>
 	<img src="./GITHUB/preview/main_2.gif">
 	<hr>
@@ -68,7 +68,7 @@ made with my personal taste. let me know if bad in Issues page
 
 <details>
 	<summary>previews</summary>
-	tweaks some things, i guess..
+	tweaks some things with no regard if it's actually any better!!!
 	<br>
 	<img src="./GITHUB/preview/tweaked_1.gif">
 	<hr>
@@ -154,11 +154,11 @@ quick n dirty font that combines the other fonts
 <br>
 *→ it's that secret font in Java and the runic font in Dungeons*
 
-yep!
+yep! also please use with all letters uppercase, thank you
 
 <details>
 	<summary>previews</summary>
-	the fonts! with Main fonts for comparison
+	the font, with Main font for comparison
 	<br>
 	<img src="./GITHUB/preview/illageralt_1.gif">
 </details>
@@ -180,11 +180,11 @@ yep!
 <br>
 *→ simply bold more readable*
 
-yep!
+yep! also please use with all letters uppercase, thank you
 
 <details>
 	<summary>previews</summary>
-	bold is most likely more readable, maybe
+	Bold is most likely more readable, maybe
 	<br>
 	<img src="./GITHUB/preview/illageralt_tweaked_1.gif">
 </details>
@@ -213,7 +213,7 @@ feel free and open source to use these fonts freely for personal and commercial 
 ## least freqently asked questions
 
 ### Why did you make this?
-ah well, back around December 2022 i was trying to find a Minecraft font that i could use for one of my things. there were several fonts, but they were either not pixel-perfect, outdated, or were quite lacking or weird looking.
+ah well, back around December 2022 i was trying to find a Minecraft font that i could use for a map thing i was working on. i found several fonts, but they were either weird looking or lacking characters i needed.
 
 a normal person would have chosen the most convenient font to use, but i am kind of a nitpicky person, and i am not a normal person (i think)
 
@@ -223,17 +223,17 @@ the very first version contained Basic Latin and some other characters i needed.
 
 was pretty bored in christmas break and thought "wat if i make a mc font that's 1:1 used ingame for funsies"
 
-"no way in hell i'm gonna be able to do that" i said, but tried anyway, making this probably my most ambitious project ever
+"no way in hell i'm gonna be able to do that" i said, but tried anyway, making this probably my most ambitious project ever, at least for now
 
 also this was previously released as "mdt's Minecraft", but decided to rename it and release it as separate font for terrible reasons `:v` the previous version is still up in the `fonts` repo, but i'd rather not you find it `>:(`
 
 
 ### What are your plans for this?
-uhhh i dont really have any plans. i'm just going along with whatver i think and would like to work on
+uhhh i dont really have any plans. i just work on whatever that comes to mind when i feel like it
 
 
 ### How do I contribute/add and tweak characters?
-uhmmmmm i'm not sure. i never really thought about other people contributing in mind, i just wanted to make smth for myself
+uhmmmmm i'm not sure. i never really thought about other people contributing in mind, i just wanted to make smth to waste time, for funsies `:p`
 
 i guess you could probably suggest or make characters in Issues page and i might add them
 
@@ -245,7 +245,7 @@ uhmmm not sure why you need to do that but here's some prerequisites:
 - Python
 - FontForge 
 
-then run the script `python generate.py`
+then run the script `python scripts/generate.py`
 <br>
 it should put generated fonts in `TEMP/`
 
