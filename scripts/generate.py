@@ -36,6 +36,7 @@ stylemap = {
 def style_it(pack_name, pack_config, style):
 	font = ff.open(base_dir + "basis.ttf")
 	font.uwidth = 128
+	font.encoding = "UnicodeFull"
 
 	is_bold   = style == "Bold"   or style == "Bold Italic"
 	is_italic = style == "Italic" or style == "Bold Italic"
