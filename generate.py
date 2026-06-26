@@ -63,6 +63,9 @@ def style_it(pack_name, pack_config, style):
 
 	font.fontname = id_name
 	font.os2_stylemap = stylemap[style]
+	# additional fix for weight on Linux ;D
+	font.os2_weight = 700 if is_bold else 400
+	font.weight = "Bold" if is_bold else "Regular"
 	font.sfntRevision = config["version"]
 
 	if pack_name == "Main":
